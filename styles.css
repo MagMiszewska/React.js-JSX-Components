@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    max-width: 1200px;
+    background-color: #283149;
+    padding: 20px 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: #404b69;
+    color: #aedae9;
+    border-radius: 20px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+input {
+    font-size: 16px;
+    border: 2px solid #aedae9;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+button {
+    background-color: #283149;
+    border: 2px solid #aedae9;
+    color: #dbedf3; 
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+}
+.contactsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.contactItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #f73859;
+    color: #aedae9;
+    margin-bottom: 15px;
+}
+
+.contactImage {
+    width: 150px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.contactEmail {
+    text-decoration: none;
+    color: #aedae9; 
+}
